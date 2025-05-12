@@ -11,6 +11,10 @@ body {
   width: 100%;
 }
 
+.logo a {
+  color: white;
+}
+
 .navbar {
   width: 100%;
   height: 80px;
@@ -21,6 +25,14 @@ body {
   /* padding: 0 50px 0 50px; */
   /* padding: 0 50px; */
   padding: 50px;
+}
+
+/* .links ul li a{
+  color: white;
+} */
+
+.nav-link {
+  color: white;
 }
 
 .navbar-left {
@@ -35,5 +47,73 @@ body {
       align-items: center;
       gap: 20px;
     }
+  }
+}
+
+.btn {
+  padding: 8px 10px;
+  outline: none;
+  background-color: crimson;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: calc(100vh - 100px);
+  width: 100%;
+  background-color: gray;
+
+  .hero-h1 {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .hero-p {
+    font-size: 1.3rem;
+    padding: 40px 0;
+    color: white;
+  }
+
+  .btn-white {
+    padding: 8px 10px;
+    outline: none;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .hero-left {
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+
+    .pointer-img {
+      height: 140px;
+      width: 140px;
+      position: absolute;
+      top: 50px;
+      right: 0;
+    }
+  }
+
+  /* hero right  */
+  .hero-right {
+    /* background-color: yellow; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
